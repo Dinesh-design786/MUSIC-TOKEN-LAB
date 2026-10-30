@@ -2,6 +2,19 @@
 
 Music Token Lab is a small, inspectable workspace for preparing symbolic music data for model training. It keeps the data flow explicit: import events, validate them, derive a deterministic vocabulary, encode events, and generate next-token sequence windows.
 
+![Music Token Lab Overview](docs/screenshots/hero-overview.jpg)
+
+## Features & Screenshots
+
+- **Overview & Real-time Metrics**: Monitor total dataset events, validation health, unique deterministic vocabulary tokens, and generated training windows.
+- **Preparation Pipeline & Distribution**: Deterministic sequence generation from raw music events to model inputs, complete with harmonic density spectrum and event ratio charts.
+
+  ![Preparation Pipeline and Distribution](docs/screenshots/pipeline-analytics.jpg)
+
+- **Interactive Symbolic Dataset Inspection**: Inspect event records, verify validity, and audition individual notes/chords in real-time using the built-in Web Audio API synthesizer.
+
+  ![Symbolic Event Records](docs/screenshots/dataset-records.png)
+
 ## Run locally
 
 ```bash
